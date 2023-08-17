@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ct-top-menu-item {
+  @apply px-4 py-1 cursor-pointer hover:text-slate-950 relative after:h-0.5
+   after:absolute after:w-0 hover:after:w-3/5 after:content-[''] after:bg-slate-950 after:left-4 
+   after:bottom-0 after:transition-all after:duration-200;
+}
